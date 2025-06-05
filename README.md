@@ -2,7 +2,7 @@
 
 ## Deskripsi Singkat
 **Latar belakang**
-Pelaku bisnis UMKM dan startup seringkali menghadapi tantangan dalam melakukan riset pasar yang efektif karena keterbatasan sumber daya dan waktu. Proses identifikasi segmen pasar, analisis pain point konsumen, hingga evaluasi ide bisnis membutuhkan waktu mingguan bahkan bulanan. Di sisi lain, akses terhadap alat analisis profesional seperti SWOT dan perhitungan kelayakan finansial (BEP) biasanya mahal dan kompleks. Kesenjangan ini menyebabkan banyak ide bisnis potensial tidak teruji secara memadai sebelum diluncurkan, berisiko tinggi terhadap kegagalan pasar.
+Aplikasi ini dibuat karena pelaku bisnis UMKM dan startup seringkali menghadapi tantangan dalam melakukan riset pasar yang efektif karena keterbatasan sumber daya dan waktu. Proses identifikasi segmen pasar, analisis pain point konsumen, hingga evaluasi ide bisnis membutuhkan waktu mingguan bahkan bulanan. Di sisi lain, akses terhadap alat analisis profesional seperti SWOT dan perhitungan kelayakan finansial (BEP) biasanya mahal dan kompleks. Kesenjangan ini menyebabkan banyak ide bisnis potensial tidak teruji secara memadai sebelum diluncurkan, berisiko tinggi terhadap kegagalan pasar.
 
 **Tujuan Projek**
 Aplikasi ini dikembangkan untuk memberikan solusi riset pasar terintegrasi berbasis AI yang cepat, akurat, dan terjangkau. Dimana aplikasi ini berfungsi untuk:
