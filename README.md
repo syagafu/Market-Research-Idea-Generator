@@ -28,9 +28,9 @@ Aplikasi ini dikembangkan untuk memberikan solusi riset pasar terintegrasi berba
    - AI memberikan skor (1-5) untuk tiap kriteria dan ide, serta ringkasan analisis.
 
 3. **Visualisasi Skor Ide**
-   - Tampilkan bar chart rata-rata skor tiap ide.
-   - Kesimpulan otomatis: jika ada lebih dari satu ide dengan skor tertinggi, aplikasi memberi saran untuk analisis lebih lanjut.
-   - Saran tambahan jika Anda menambahkan kriteria favorit.
+   - Menampilkan bar chart rata-rata skor tiap ide.
+   - Kesimpulan otomatis berdasarkan nilai tertinggi. Jika ada lebih dari satu ide dengan skor tertinggi, aplikasi memberi saran untuk analisis lebih lanjut.
+   - Saran tambahan jika user menambahkan kriteria favorit.
 
 4. **Simulasi Break Even Point (BEP)**
    - Hitung estimasi waktu balik modal berdasarkan input modal, biaya operasional, dan omzet bulanan.
@@ -53,8 +53,6 @@ Install semua paket dengan perintah:
 ```bash
 pip install streamlit requests pandas matplotlib numpy
 ```
-## Akses aplikasi via web
-**Link aplikasi** : https://ideamarket.streamlit.app/
 
 ## Cara Menjalankan di Lokal
 
@@ -68,16 +66,34 @@ pip install streamlit requests pandas matplotlib numpy
    streamlit run app.py
    ```
 4. Buka browser dan akses alamat yang muncul (biasanya http://localhost:8501)
-5. Masukkan API Key OpenRouter di sidebar aplikasi.
+5. Masukkan API Key OpenRouter di sidebar aplikasi. Cara mendapatkan API Key:
+    - Kunjungi [OpenRouter.ai](https://openrouter.ai)
+    - Daftar akun baru (gratis)
+    - Pergi ke bagian Keys/API
+    - Generate API key baru
+
+## Akses aplikasi via web
+1. Akses browser favorit Anda (Chrome, Firefox, Edge, Safari, dll).
+2. Ketik link berikut di Ketikkan URL berikut di address bar browser:
+   - https://ideamarket.streamlit.app/ (Klik link atau salin-tempel di browser)
+3. Masukkan API Key OpenRouter di sidebar aplikasi. Cara mendapatkan API Key:
+   - Kunjungi OpenRouter.ai ( https://openrouter.ai )
+   - Daftar akun baru (gratis)
+   - Pergi ke bagian Keys/API
+   - Generate API key baru
+
 
 ## Penggunaan
+1. Anda cukup masukkan data riset pasar di **Tab Generator Ide** lalu generate ide, anda bisa juga menggunakan fitur **Tanya AI** untuk menggali lebih dalam ide pilihan anda.
+2. Bandingkan minimal 2 Ide pilihan anda di **Tab Perbandingan Hasil**
+3. Masuk ke **Tab Visualisasi Perbandingan Skor Ide** untuk mendapatkan visualisasi serta insight secara instan
+4. Anda bisa gunakan fitur **Simulasi Break Even Point (BEP)** di **Side Bar** untuk membantu dalam menentukan strategi harga yang tepat dengan feedback balik modal.
 
-Aplikasi ini cocok digunakan oleh:
+## User Aplikasi
+Aplikasi ini terbuka untuk digunakan siapa saja, namun lebih bermanfaat jika digunakan oleh:
 - Mahasiswa, pelaku startup, UMKM, atau siapa saja yang ingin mencari ide bisnis berbasis data dan AI.
 - Tim riset pasar yang ingin membandingkan beberapa ide secara objektif dan cepat.
 - Siapa saja yang ingin melakukan simulasi BEP dan analisis SWOT secara otomatis.
-
-Cukup masukkan data riset pasar, generate ide, bandingkan, dan dapatkan visualisasi serta insight secara instan!
 
 
 ## Catatan
