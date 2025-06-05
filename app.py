@@ -9,7 +9,11 @@ import numpy as np
 # Coba ambil dari secrets, jika tidak ada akan kosong
 API_KEY = st.secrets.get("OPENROUTER_API_KEY", "")
 
-st.set_page_config(page_title="Market Research & Ideation Tool", layout="wide")
+st.set_page_config(
+    page_title="Market Research & Ideation Tool",
+    layout="wide",
+    page_icon="🛒"  # <-- INI FAVICON BARU
+)
 # Ganti logo roket dengan logo marketplace (misal: ikon keranjang belanja dari emoji)
 st.markdown('''
     <style>
