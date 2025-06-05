@@ -1,8 +1,5 @@
 # Market Research & Idea Generator (Streamlit App)
 
-## Akses aplikasi via web
-**Link aplikasi** : https://ideamarket.streamlit.app/
-
 ## Deskripsi Singkat
 **Latar belakang**
 Aplikasi ini dibuat karena pelaku bisnis UMKM dan startup seringkali menghadapi tantangan dalam melakukan riset pasar yang efektif karena keterbatasan sumber daya dan waktu. Proses identifikasi segmen pasar, analisis pain point konsumen, hingga evaluasi ide bisnis membutuhkan waktu mingguan bahkan bulanan. Di sisi lain, akses terhadap alat analisis profesional seperti SWOT dan perhitungan kelayakan finansial (BEP) biasanya mahal dan kompleks. Kesenjangan ini menyebabkan banyak ide bisnis potensial tidak teruji secara memadai sebelum diluncurkan, berisiko tinggi terhadap kegagalan pasar.
@@ -56,6 +53,8 @@ Install semua paket dengan perintah:
 ```bash
 pip install streamlit requests pandas matplotlib numpy
 ```
+## Akses aplikasi via web
+**Link aplikasi** : https://ideamarket.streamlit.app/
 
 ## Cara Menjalankan di Lokal
 
