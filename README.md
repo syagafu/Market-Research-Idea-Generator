@@ -1,5 +1,6 @@
 # Market Research & Idea Generator (Streamlit App)
 
+## Akses aplikasi via web
 **Link aplikasi** : https://ideamarket.streamlit.app/
 
 ## Deskripsi Singkat
