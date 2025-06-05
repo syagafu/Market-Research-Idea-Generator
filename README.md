@@ -84,10 +84,10 @@ pip install streamlit requests pandas matplotlib numpy
 
 
 ## Penggunaan
-1. Anda cukup masukkan data riset pasar di **Tab Generator Ide** lalu generate ide, anda bisa juga menggunakan fitur **Tanya AI** untuk menggali lebih dalam ide pilihan anda.
+1. User cukup masukkan data riset pasar di **Tab Generator Ide** lalu generate ide, anda bisa juga menggunakan fitur **Tanya AI** untuk menggali lebih dalam ide pilihan anda.
 2. Bandingkan minimal 2 Ide pilihan anda di **Tab Perbandingan Hasil**
 3. Masuk ke **Tab Visualisasi Perbandingan Skor Ide** untuk mendapatkan visualisasi serta insight secara instan
-4. Anda bisa gunakan fitur **Simulasi Break Even Point (BEP)** di **Side Bar** untuk membantu dalam menentukan strategi harga yang tepat dengan feedback balik modal.
+4. User bisa menggunakan fitur **Simulasi Break Even Point (BEP)** di **Side Bar** untuk membantu dalam menentukan strategi harga yang tepat dengan feedback balik modal.
 
 ## User Aplikasi
 Aplikasi ini terbuka untuk digunakan siapa saja, namun lebih bermanfaat jika digunakan oleh:
