@@ -1,6 +1,21 @@
 # Market Research & Idea Generator (Streamlit App)
 
-Aplikasi ini membantu Anda melakukan riset pasar, menghasilkan ide produk/layanan baru, membandingkan ide berdasarkan kriteria, dan memvisualisasikan hasil perbandingan secara interaktif dengan bantuan AI (OpenRouter).
+## Deskripsi Singkat
+**Latar belakang**
+Pelaku bisnis UMKM dan startup seringkali menghadapi tantangan dalam melakukan riset pasar yang efektif karena keterbatasan sumber daya dan waktu. Proses identifikasi segmen pasar, analisis pain point konsumen, hingga evaluasi ide bisnis membutuhkan waktu mingguan bahkan bulanan. Di sisi lain, akses terhadap alat analisis profesional seperti SWOT dan perhitungan kelayakan finansial (BEP) biasanya mahal dan kompleks. Kesenjangan ini menyebabkan banyak ide bisnis potensial tidak teruji secara memadai sebelum diluncurkan, berisiko tinggi terhadap kegagalan pasar.
+
+**Tujuan Projek**
+Aplikasi ini dikembangkan untuk memberikan solusi riset pasar terintegrasi berbasis AI yang cepat, akurat, dan terjangkau. Tujuannya adalah:
+
+1. Memangkas waktu riset dari mingguan menjadi hitungan menit melalui generasi ide otomatis berdasarkan     input pasar
+
+2. Menyederhanakan analisis kompetitif dengan perbandingan multi-kriteria dan visualisasi data intuitif
+
+3. Memberikan simulasi kelayakan finansial instan melalui kalkulator BEP interaktif
+
+4. Mendemokratisasi akses alat profesional bagi UMKM dan pemula dengan antarmuka sederhana
+
+5. Dengan menggabungkan AI OpenRouter, analisis data Python, dan visualisasi Streamlit, proyek ini mentransformasi proses pengembangan ide bisnis dari yang bersifat spekulatif menjadi berbasis data terstruktur.
 
 ## Fitur Utama
 
@@ -23,37 +38,6 @@ Aplikasi ini membantu Anda melakukan riset pasar, menghasilkan ide produk/layana
 5. **Personalisasi Tanya AI**
    - Tanyakan apa saja tentang ide yang dihasilkan, misal strategi pemasaran, estimasi modal, keunggulan, dsb.
 
-## Cara Menggunakan
-
-1. **Siapkan API Key OpenRouter**
-   - Daftar gratis di [OpenRouter.ai](https://openrouter.ai) dan dapatkan API Key.
-   - Masukkan API Key di sidebar aplikasi.
-
-2. **Input Data Riset Pasar**
-   - Isi segmen pasar, masalah konsumen, tren, dan kompetitor di Tab "Generator Ide".
-   - (Opsional) Tambahkan kriteria perbandingan.
-   - Klik "Hasilkan Ide & Analisis".
-
-3. **Bandingkan Ide**
-   - Pindah ke Tab "Perbandingan Hasil".
-   - Pilih minimal 2 ide, klik "Bandingkan Ide".
-
-4. **Lihat Visualisasi**
-   - Tab "Visualisasi Perbandingan Skor Ide" akan aktif setelah perbandingan.
-   - Lihat bar chart dan kesimpulan otomatis.
-
-5. **Simulasi BEP**
-   - Gunakan sidebar untuk menghitung estimasi BEP.
-
-## Penggunaan
-
-Aplikasi ini cocok digunakan oleh:
-- Mahasiswa, pelaku startup, UMKM, atau siapa saja yang ingin mencari ide bisnis berbasis data dan AI.
-- Tim riset pasar yang ingin membandingkan beberapa ide secara objektif dan cepat.
-- Siapa saja yang ingin melakukan simulasi BEP dan analisis SWOT secara otomatis.
-
-Cukup masukkan data riset pasar, generate ide, bandingkan, dan dapatkan visualisasi serta insight secara instan!
-
 ## Kebutuhan Instalasi
 
 Pastikan Anda sudah menginstall:
@@ -70,17 +54,29 @@ Install semua paket dengan perintah:
 pip install streamlit requests pandas matplotlib numpy
 ```
 
-## Instalasi & Menjalankan
+## Cara Menjalankan di Lokal
 
 1. Pastikan Python 3.8+ sudah terinstall.
 2. Install dependencies:
    ```bash
    pip install streamlit requests pandas matplotlib numpy
    ```
-3. Jalankan aplikasi:
+3. Jalankan aplikasi dengan perintah berikut di terminal:
    ```bash
    streamlit run app.py
    ```
+4. Buka browser dan akses alamat yang muncul (biasanya http://localhost:8501)
+5. Masukkan API Key OpenRouter di sidebar aplikasi.
+
+## Penggunaan
+
+Aplikasi ini cocok digunakan oleh:
+- Mahasiswa, pelaku startup, UMKM, atau siapa saja yang ingin mencari ide bisnis berbasis data dan AI.
+- Tim riset pasar yang ingin membandingkan beberapa ide secara objektif dan cepat.
+- Siapa saja yang ingin melakukan simulasi BEP dan analisis SWOT secara otomatis.
+
+Cukup masukkan data riset pasar, generate ide, bandingkan, dan dapatkan visualisasi serta insight secara instan!
+
 
 ## Catatan
 - Aplikasi ini menggunakan API OpenRouter (mirip ChatGPT) untuk menghasilkan ide dan analisis.
@@ -92,4 +88,4 @@ MIT License
 
 ---
 
-**Dibuat untuk pembelajaran dan eksplorasi AI di bidang market research dan ideasi produk.**# Market-Research-Idea-Generator
+**Dibuat untuk pembelajaran dan eksplorasi AI di bidang market research dan ideasi produk.**
