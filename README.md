@@ -1,10 +1,5 @@
 # Market Research & Idea Generator (Streamlit App)
 
-| No | Aplikasi Dibuat Oleh       |
-|----|----------------------------|
-| 1  | Dimaz Syagaf Mahbullah     |
-| 2  | Devana Alyaa Purnomo Putri |
-
 ## Deskripsi Singkat
 **Latar belakang**
 Aplikasi ini dibuat karena pelaku bisnis UMKM dan startup seringkali menghadapi tantangan dalam melakukan riset pasar yang efektif karena keterbatasan sumber daya dan waktu. Proses identifikasi segmen pasar, analisis pain point konsumen, hingga evaluasi ide bisnis membutuhkan waktu mingguan bahkan bulanan. Di sisi lain, akses terhadap alat analisis profesional seperti SWOT dan perhitungan kelayakan finansial (BEP) biasanya mahal dan kompleks. Kesenjangan ini menyebabkan banyak ide bisnis potensial tidak teruji secara memadai sebelum diluncurkan, berisiko tinggi terhadap kegagalan pasar.
